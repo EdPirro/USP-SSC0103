@@ -9,7 +9,7 @@ classFiles = $(patsubst %.java,%.class,$(javaFiles))
 
 # checks if you have all needed source files
 ifneq ($(javaFiles), $(sourceFiles))
-$(error You're missing some (if not all) source code files, try getting them at 'https://github.com/EdPirro/USP-SSC0103/tree/master/Bozo' and running again.)
+$(error You're missing some (if not all) source code files, try getting them at 'https://https://github.com/EdPirro/USP-SSC0103/edit/master/Boz%C3%B3' and running again.)
 endif  
 
 # sets up arguments to be used on the clean target
