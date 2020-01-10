@@ -63,7 +63,7 @@ public class Main {
         Agenda agenda = new Agenda();
         int op = -5;
         while(op != 0) {
-            System.out.println("Insira o numero da operação desejada\n1-Insere\n2-Busca\n3-Ordena\n4-Ver Contatos\n0-Sair");
+            System.out.println("Insira o numero da operação desejada\n1-Insere\n2-Remoção\n3-Ver Contatos\n0-Sair");
             op = EntradaTeclado.leInt();
             switch (op) {
                 case 1:
@@ -73,9 +73,6 @@ public class Main {
                     removeAgenda(agenda);
                     break;
                 case 3:
-                    agenda.sort();
-                    break;
-                case 4:
                     agenda.printAllContact();
                     break;
             }

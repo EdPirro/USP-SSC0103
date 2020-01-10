@@ -10,7 +10,7 @@ public class Bozo {
             curr = roll.rolar();
             System.out.println("Rodada " + (nTurns + 1) + "/10.");
             System.out.println("Os dados rodados deram os seguintes resultados:\n\n" + roll);
-            for(int i = 0; i < 3; i++) {
+            for(int i = 0; i < 2; i++) {
                 System.out.println("Escolha os dados que deseja re-rolar (" + (3 - i) + " re-rolls restantes).");
                 String reroll = EntradaTeclado.leString();
                 if (reroll.length() == 0) break;

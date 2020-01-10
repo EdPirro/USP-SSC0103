@@ -15,9 +15,9 @@ public class Placar {
         for(int i = 0; i < count.length; i++){
             if(count[i] == 2) haveTwo = true;
             else if(count[i] == 3) haveThree = true;
-            else if(count[i] == 5) return 15;
+            else if(count[i] == 5) return 20;
         }
-        if(haveTwo && haveThree) return 15;
+        if(haveTwo && haveThree) return 20;
         else return 0;
     }
 
@@ -26,19 +26,19 @@ public class Placar {
         if(count[0] >= 1 && count[5] >= 1) return 0;
         for(int i = 0; i < count.length; i++)
             if(count[i] == 1) countOne++;
-        if(countOne == 5) return 20;
+        if(countOne == 5) return 30;
         else return 0;
     }
 
     private int checkFourOfAKind(int[] count){
         for(int i = 0; i < count.length; i++)
-            if(count[i] >= 4) return 30;
+            if(count[i] >= 4) return 40;
         return 0;
     }
 
     private int checkFiveOfAKind(int[] count){
         for(int i = 0; i < count.length; i++)
-            if(count[i] == 5) return 40;
+            if(count[i] == 5) return 50;
         return 0;
     }
 
