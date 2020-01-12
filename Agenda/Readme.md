@@ -38,4 +38,4 @@ E então rode-o com:
 Repositório
 -----------
 
-[Voltar para a página do repositório.](github.com/EdPirro/USP-SSC0103)
+[Voltar para a página do repositório.](https://github.com/EdPirro/USP-SSC0103)

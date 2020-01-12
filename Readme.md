@@ -5,8 +5,7 @@ Os projetos desse repositório foram feitos para a materia da USP SSC-0218.
 
 * [Agenda](Agenda): Um programa basico de agenda, permite que você adicione pessoas fisicas e juridicas, remova-os e exibia seus contatos.
 * [Bozó](Bozó): Esse é um jogo de dados no qual seu objetico é formar jogos e posicioná-los de maneira a maximizar seus pontos.
-* [FormasGeometricas](FormasGeometricas): desc.
-* [VideoPoker](VideoPoker): desc.
+* [VideoPoker](VideoPoker): Video Poker é um jogo de cassino baseado no poker, a cada rodad você aposta e ganha dinheiro baseado na sua mão.
 
 Instalação:
 -----------
