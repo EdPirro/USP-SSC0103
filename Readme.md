@@ -1,5 +1,5 @@
-SSC-0218 - Algoritmos Avançados e Aplicações
-====================================
+SSC-0218 - Programação Orientada a Objetos
+==========================================
 
 Os projetos desse repositório foram feitos para a materia da USP SSC-0218.
 
